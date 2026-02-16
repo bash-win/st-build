@@ -16,6 +16,11 @@ float alphaUnfocused = 0.85;     /* unfocused opacity */
 unsigned int bg = 0;          /* focused background */
 unsigned int bgUnfocused = 0; /* unfocused background */
 
+/* boxdraw patch */
+const int boxdraw = 1;
+const int boxdraw_bold = 1;
+const int boxdraw_braille = 1;
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
