@@ -1,0 +1,18 @@
+# Build artifacts
+*.o
+*.orig
+*.rej
+
+# Compiled binaries
+dwm
+st
+dmenu
+slstatus
+
+# Tarballs
+*.tar.gz
+
+# Logs / core dumps
+core
+core.*
+
