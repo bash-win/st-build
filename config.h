@@ -6,7 +6,15 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "JetBrainsMono Nerd Font:pixelsize=18:antialias=true:autohint=true";
-static int borderpx = 2;
+static int borderpx = 12;
+
+/* opacity */
+float alpha = 0.95;              /* focused opacity */
+float alphaUnfocused = 0.85;     /* unfocused opacity */
+
+/* background colors for alpha patch */
+unsigned int bg = 0;          /* focused background */
+unsigned int bgUnfocused = 0; /* unfocused background */
 
 /*
  * What program is execed by st depends of these precedence rules:
